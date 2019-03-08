@@ -38,17 +38,3 @@ while pageCounter < numberOfPages:
     
     print('Generated PDF result' + str(pageCounter) + '.pdf')
     pageCounter +=1
-
-
-## ORIGINAL CODE FOLLOW : 
-##pdfs = ['file1.pdf', 'file2.pdf', 'file3.pdf', 'file4.pdf']
-
-##merger = PdfFileMerger()
-
-
-
-##for pdf in pdfs:
-##    merger.append(open(pdf, 'rb'))
-
-#with open('result.pdf', 'wb') as fout:
-#    merger.write(fout)
